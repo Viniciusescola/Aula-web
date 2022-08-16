@@ -1,0 +1,67 @@
+#banner{
+   width: 45%;
+   margin-left: 6%;
+   border-radius: 50px;
+}
+.caixa{
+   position: relative;
+   width: 940px;
+   right: 0 auto;
+}
+header{
+   background: #CCCCCC;
+}
+nav li{
+   display: inline;
+   margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+
+
+}
+nav a:hover{
+   color: #C78C19;
+}
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+#imagem{
+   width: 90%;
+}
+#imagem2{
+   width: 67%;
+}
+#imagem3{
+   width: 50%;
+}
+.produto li{
+   display: inline-block;
+   text-align: center;
+
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 20px 30px;
+
+   box-sizing: border-box;
+   border-width: 4px;
+   border-radius: 20px;
+   border-style: outset;
+   background: #FFFFFF;
+
+}
+.produto li:hover{
+   border-color: #C78C19;
+}
+.produto li:active{
+   border-color: #088C19;
+}
+.produto li:hover h2{
+   font-size: 35px;
+}
